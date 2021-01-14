@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main(void){
+
+char a = -127;
+printf("%d\n", a);
+
+unsigned char b = 255;
+printf("%d\n", b);
+
+int c = 6237498;
+printf("%d\n", c);
+
+long long d = 4294967292;                  
+printf("%lld\n", d);                         
+/* Тук d = 4294967292 според таблицата от лекцията трябва да бъде 
+unsigned int, но при мен не се изписва правилно на екрана нито при
+unsigned int, нито при unsigned long. Поради тази причина използвам
+long long за тази променлива.*/
+
+long long e = -9000000000775845;
+printf("%lld\n", e);
+
+return 0;
+}
+
