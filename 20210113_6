@@ -16,7 +16,7 @@ unsigned int d = 4294967292;
 printf("%u\n", d);                         
 
 long long e = -9000000000775845;
-printf("%ld\n", e);
+printf("%lld\n", e);
 
 return 0;
 }
